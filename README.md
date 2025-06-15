@@ -97,16 +97,8 @@ scifi-calci/
 ## 📝 License
 This project is open source and available under the MIT License.
 
-##🙋‍♂️ Author
+## 🙋‍♂️ Author
 Made by gksankili
-
 ```yaml
----
-
-Let me know if you'd like:
-- A GitHub Actions workflow to auto-build Docker images
-- Deployment guide for Render, Railway, or fly.io
-- Keyboard input or mobile optimization
-
 You're off to a great start 🚀
 ```
