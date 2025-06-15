@@ -1,0 +1,25 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SciFi Calculator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>SciFi Calculator</h2>
+        <form method="POST">
+            <input type="text" name="expression" placeholder="Enter expression" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div class="result">{{ result }}</div>
+
+        <div class="help">
+            <h4>Supported Operators:</h4>
+            <p>+, -, *, /, **, sqrt(), sin(), cos(), tan(), log(), log10(), pi, e</p>
+            <p>Example: <code>sin(pi/2) + log(100, 10)</code></p>
+        </div>
+    </div>
+</body>
+</html>
